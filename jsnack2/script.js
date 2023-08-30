@@ -25,9 +25,9 @@ while (i < 2) {
     i++
 }
 
-if (list[0] > list[1]) {
+if (list[0].length > list[1].length) {
     console.log(list[1], list[0]);
-} else if (list[0] < list[1]) {
+} else if (list[0].length < list[1].length) {
     console.log(list[0], list[1]);
 } else {
     console.log(list[0], list[1]);
