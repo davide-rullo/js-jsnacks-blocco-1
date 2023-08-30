@@ -24,13 +24,15 @@ while (i < 2) {
     list.push(number)
     i++
 
-    if (list[0] > list[1]) {
-        console.log("il numero maggiore è il primo");
-    } else if (list[0] < list[1]) {
-        console.log("il numero maggiore è il secondo");
-    } else {
-        console.log("I numeri sono uguali");
-    }
+
     
     console.log(list)
+}
+
+if (list[0] > list[1]) {
+    console.log("il numero maggiore è il primo");
+} else if (list[0] < list[1]) {
+    console.log("il numero maggiore è il secondo");
+} else {
+    console.log("I numeri sono uguali");
 }
